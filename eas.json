@@ -1,6 +1,10 @@
 {
   "build": {
     "preview": {
+      "env": {
+        "RAPID_API_KEY": "4efc191667msh41a715573254364p149401jsnd2be8cbff23b",
+        "RAPID_API_HOST": "jsearch.p.rapidapi.com"
+      },
       "android": {
         "buildType": "apk"
       }
@@ -13,6 +17,10 @@
     "preview3": {
       "developmentClient": true
     },
-    "production": {}
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.production.com"
+      }
+    }
   }
 }
